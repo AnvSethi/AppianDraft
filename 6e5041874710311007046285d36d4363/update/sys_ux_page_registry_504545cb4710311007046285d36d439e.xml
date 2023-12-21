@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>5c45c5434710311007046285d36d43e6</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page display_value="Flow Diagram">38025688c31030101099006c2840dd7f</page>
+        <parent_app display_value="UXR Base Unified App">c4b650c2c702201072b211d4d8c260a4</parent_app>
+        <path>home</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-01 07:16:35</sys_created_on>
+        <sys_id>504545cb4710311007046285d36d439e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_page_registry_504545cb4710311007046285d36d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 09:35:10</sys_updated_on>
+        <title>Home</title>
+    </sys_ux_page_registry>
+</record_update>

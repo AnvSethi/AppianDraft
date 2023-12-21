@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>Authorization</name>
+        <rest_message display_value="ChatGPT">94fd85db47b2311007046285d36d4324</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-04 09:18:24</sys_created_on>
+        <sys_id>09fd45db47b2311007046285d36d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Authorization</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_rest_message_headers_09fd45db47b2311007046285d36d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:18:24</sys_updated_on>
+        <value>Bearer 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</value>
+    </sys_rest_message_headers>
+</record_update>

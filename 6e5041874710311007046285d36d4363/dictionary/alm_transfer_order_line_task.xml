@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d48b8fc2c59021108c8b506e733c4ce6" extends="task" label="Transfer Order Line Task" max_length="40" name="alm_transfer_order_line_task" type="collection">
+        <element label="password" max_length="40" name="x_1047617_appian_0_password" type="string"/>
+        <element display="true" label="username" max_length="40" name="x_1047617_appian_0_username" type="string"/>
+    </element>
+</database>

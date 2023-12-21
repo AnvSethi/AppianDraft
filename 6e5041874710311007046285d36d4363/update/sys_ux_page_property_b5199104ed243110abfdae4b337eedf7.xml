@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Demo">e11991044724311007046285d36d4395</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">7119d1042b243110658f94dd69a4fc24</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 11:17:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b5199104ed243110abfdae4b337eedf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_page_property_b5199104ed243110abfdae4b337eedf7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 11:17:13</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1047617_appian_0.e11991044724311007046285d36d4395.route.chrome_header.7119d1042b243110658f94dd69a4fc24</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=b5199104ed243110abfdae4b337eedf7"/>
+</record_update>

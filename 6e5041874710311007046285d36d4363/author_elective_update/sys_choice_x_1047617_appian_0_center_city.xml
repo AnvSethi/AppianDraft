@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="city" table="x_1047617_appian_0_center" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <name>x_1047617_appian_0_center</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 11:35:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>city</sys_name>
+            <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+            <sys_update_name>sys_choice_x_1047617_appian_0_center_city</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 11:35:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Maharashtra</dependent_value>
+            <element>city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mumbai</label>
+            <language>en</language>
+            <name>x_1047617_appian_0_center</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 11:35:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 11:35:42</sys_updated_on>
+            <value>Mumbai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Karnataka</dependent_value>
+            <element>city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bangalore</label>
+            <language>en</language>
+            <name>x_1047617_appian_0_center</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 11:35:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 12:50:01</sys_updated_on>
+            <value>Bangalore</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>New York</dependent_value>
+            <element>city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Queens</label>
+            <language>en</language>
+            <name>x_1047617_appian_0_center</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 11:35:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 12:50:01</sys_updated_on>
+            <value>Queens</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>California</dependent_value>
+            <element>city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>San Francisco</label>
+            <language>en</language>
+            <name>x_1047617_appian_0_center</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 11:35:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 12:50:01</sys_updated_on>
+            <value>San Francisco</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>West Australia</dependent_value>
+            <element>city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Adelaide</label>
+            <language>en</language>
+            <name>x_1047617_appian_0_center</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 11:35:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 12:50:01</sys_updated_on>
+            <value>Adelaide</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>South Australia</dependent_value>
+            <element>city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Perth</label>
+            <language>en</language>
+            <name>x_1047617_appian_0_center</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 11:35:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 12:50:01</sys_updated_on>
+            <value>Perth</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

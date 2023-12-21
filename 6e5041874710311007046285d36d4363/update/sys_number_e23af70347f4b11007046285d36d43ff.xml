@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1047617_appian_0_patient">x_1047617_appian_0_patient</category>
+        <maximum_digits>3</maximum_digits>
+        <number>1000</number>
+        <prefix>P</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-26 16:59:02</sys_created_on>
+        <sys_id>e23af70347f4b11007046285d36d43ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>P</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_number_e23af70347f4b11007046285d36d43ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-26 17:01:39</sys_updated_on>
+    </sys_number>
+</record_update>

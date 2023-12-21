@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="input2" table="x_1047617_appian_0_patient" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>input2</element>
+            <name>x_1047617_appian_0_patient</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-24 21:05:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>input2</sys_name>
+            <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+            <sys_update_name>sys_choice_x_1047617_appian_0_patient_input2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:05:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>input2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>geh</label>
+            <language>en</language>
+            <name>x_1047617_appian_0_patient</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-24 21:05:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:05:32</sys_updated_on>
+            <value>geh</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>input2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ijk</label>
+            <language>en</language>
+            <name>x_1047617_appian_0_patient</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-24 21:05:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-24 21:05:32</sys_updated_on>
+            <value>ijk</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

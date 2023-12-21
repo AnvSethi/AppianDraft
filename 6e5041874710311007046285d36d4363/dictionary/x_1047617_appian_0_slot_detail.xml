@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="622f107d478db11007046285d36d43ad" label="Slot Detail" max_length="40" name="x_1047617_appian_0_slot_detail" type="collection">
+        <element dependent="city" dependent_on_field="city" label="center" max_length="32" name="center" reference="x_1047617_appian_0_city1" type="reference" use_dependent_field="true"/>
+        <element dependent="state" dependent_on_field="state" label="city" max_length="40" name="city" reference="x_1047617_appian_0_city1" reference_qual="javascript: 'state_code=' + current.state.getDisplayValue()" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element label="country" max_length="32" name="country" reference="x_1047617_appian_0_country1" type="reference"/>
+        <element dependent="country" dependent_on_field="country" label="state" max_length="40" name="state" reference="x_1047617_appian_0_state1" reference_qual="javascript: 'code=' + current.country.getDisplayValue()" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="center"/>
+        </index>
+        <index name="index2">
+            <element name="country"/>
+        </index>
+    </element>
+</database>

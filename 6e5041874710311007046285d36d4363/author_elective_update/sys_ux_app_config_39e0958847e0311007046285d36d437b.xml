@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>landing</landing_path>
+        <name>Demo 3 Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 10:41:28</sys_created_on>
+        <sys_id>39e0958847e0311007046285d36d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo 3 Config</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_app_config_39e0958847e0311007046285d36d437b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 10:41:28</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appian Draft">6e5041874710311007046285d36d4363</application>
+        <file_path/>
+        <instance_id>b7d409a8db4c515807072f17d4961912</instance_id>
+        <instance_name>dev128532</instance_name>
+        <name>sys_ux_app_config_39e0958847e0311007046285d36d437b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><encode_query_string>false</encode_query_string><icon/><landing_path>landing</landing_path><name>Demo 3 Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-08-04 10:41:28</sys_created_on><sys_id>39e0958847e0311007046285d36d437b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo 3 Config</sys_name><sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package><sys_policy/><sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope><sys_update_name>sys_ux_app_config_39e0958847e0311007046285d36d437b</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-08-04 10:41:28</sys_updated_on></sys_ux_app_config></record_update>]]></payload>
+        <payload_hash>1846037686</payload_hash>
+        <record_name>Demo 3 Config</record_name>
+        <reverted_from/>
+        <source>38660a324700311007046285d36d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-19 07:06:58</sys_created_on>
+        <sys_id>51e7590c47e0311007046285d36d43e0</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1896cf932500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Configuration</type>
+        <update_guid>11e7590cabe031104791969f2b21d3e0</update_guid>
+        <update_guid_history>11e7590cabe031104791969f2b21d3e0:1846037686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 11:11:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>2b30c56c6c8c4f17ad74d530a6cd0579</sys_id>
+        <sys_metadata>39e0958847e0311007046285d36d437b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo 3 Config</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_scope_delete display_value="">89e38662cdd7472099260829e95b6484</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_39e0958847e0311007046285d36d437b</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_39e0958847e0311007046285d36d437b">51e7590c47e0311007046285d36d43e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 11:11:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

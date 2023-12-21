@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Security &amp; sign-in">b519d104e8243110d75c5bd37d0e3719</macroponent>
+        <name>Checking MFA setup</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var modelData = api.data.gliderecord_query_1.output.data.GlideRecord_Query.sys_properties._results[0].value.value;
+    var mfa = {};
+    if (modelData == "false") {
+        api.setState('propertyText', helpers.translateSync("Please enable Multi-factor authentication on the instance."));
+        api.setState('propertyValue', true);
+    } else {
+        api.setState('propertyText', helpers.translateSync("Configure Multi-factor authentication by clicking the button below."));
+        api.setState('propertyValue', false);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 11:17:13</sys_created_on>
+        <sys_id>fd19d10492243110d9327dd82443f619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Checking MFA setup</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_client_script_fd19d10492243110d9327dd82443f619</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 11:17:13</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

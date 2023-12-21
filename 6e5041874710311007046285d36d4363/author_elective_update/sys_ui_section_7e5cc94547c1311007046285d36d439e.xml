@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="7e5cc94547c1311007046285d36d439e" sys_domain="global" table="x_1047617_appian_0_slot_details" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1047617_appian_0_slot_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-01 09:26:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e5cc94547c1311007046285d36d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1047617_appian_0_slot_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+            <sys_update_name>sys_ui_section_7e5cc94547c1311007046285d36d439e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-01 09:26:50</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appian Draft">6e5041874710311007046285d36d4363</application>
+        <file_path/>
+        <instance_id>b7d409a8db4c515807072f17d4961912</instance_id>
+        <instance_name>dev128532</instance_name>
+        <name>sys_ui_section_7e5cc94547c1311007046285d36d439e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="7e5cc94547c1311007046285d36d439e" sys_domain="global" table="x_1047617_appian_0_slot_details" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1047617_appian_0_slot_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-01 09:26:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7e5cc94547c1311007046285d36d439e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1047617_appian_0_slot_details</sys_name><sys_overrides/><sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package><sys_policy/><sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope><sys_update_name>sys_ui_section_7e5cc94547c1311007046285d36d439e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-01 09:26:50</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1969889502</payload_hash>
+        <record_name>Slot Details</record_name>
+        <reverted_from/>
+        <source>625041874710311007046285d36d4366</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 09:26:50</sys_created_on>
+        <sys_id>fe5cc94547c1311007046285d36d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a501112170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 09:26:50</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>be5cc945dec131103608218d79cdc6a1</update_guid>
+        <update_guid_history>be5cc945dec131103608218d79cdc6a1:-1969889502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-01 09:31:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2d4073f3f2b34cb08ed433923eff2390</sys_id>
+        <sys_metadata>7e5cc94547c1311007046285d36d439e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1047617_appian_0_slot_details</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_parent display_value="">6adb418547c1311007046285d36d4357</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_scope_delete display_value="">89e38662cdd7472099260829e95b6484</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7e5cc94547c1311007046285d36d439e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7e5cc94547c1311007046285d36d439e">fe5cc94547c1311007046285d36d43a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-01 09:31:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

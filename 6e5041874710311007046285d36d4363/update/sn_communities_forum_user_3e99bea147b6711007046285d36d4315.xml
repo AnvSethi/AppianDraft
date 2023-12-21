@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_communities_forum_user">
+    <sn_communities_forum_user action="INSERT_OR_UPDATE">
+        <description>selected users</description>
+        <name>custom</name>
+        <sys_class_name>sn_communities_forum_user</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 06:31:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3e99bea147b6711007046285d36d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>custom</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sn_communities_forum_user_3e99bea147b6711007046285d36d4315</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 06:31:13</sys_updated_on>
+        <user_type>custom</user_type>
+    </sn_communities_forum_user>
+</record_update>

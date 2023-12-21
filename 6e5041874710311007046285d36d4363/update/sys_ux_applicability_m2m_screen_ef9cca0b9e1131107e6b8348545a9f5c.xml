@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">ab9cca0bda113110408fd19a4edabf68</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">2f9cca0b70113110bcedae3c5fe1c45c</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-20 05:31:12</sys_created_on>
+        <sys_id>ef9cca0b9e1131107e6b8348545a9f5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_ef9cca0b9e1131107e6b8348545a9f5c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-20 05:31:12</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

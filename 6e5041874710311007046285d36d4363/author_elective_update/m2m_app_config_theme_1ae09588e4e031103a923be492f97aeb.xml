@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability display_value="Public">56e095880ae03110954a2ec70c1150eb</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 10:41:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ae09588e4e031103a923be492f97aeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>m2m_app_config_theme_1ae09588e4e031103a923be492f97aeb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 10:41:27</sys_updated_on>
+        <theme display_value="Light Theme">9ee09588ace031106c95bc598156aeeb</theme>
+        <ux_app_configuration display_value="">39e0958847e0311007046285d36d437b</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appian Draft">6e5041874710311007046285d36d4363</application>
+        <file_path/>
+        <instance_id>b7d409a8db4c515807072f17d4961912</instance_id>
+        <instance_name>dev128532</instance_name>
+        <name>m2m_app_config_theme_1ae09588e4e031103a923be492f97aeb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability display_value="Public">56e095880ae03110954a2ec70c1150eb</applicability><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-08-04 10:41:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ae09588e4e031103a923be492f97aeb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package><sys_policy/><sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope><sys_update_name>m2m_app_config_theme_1ae09588e4e031103a923be492f97aeb</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-08-04 10:41:27</sys_updated_on><theme display_value="Light Theme">9ee09588ace031106c95bc598156aeeb</theme><ux_app_configuration display_value="">39e0958847e0311007046285d36d437b</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-804542292</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>38660a324700311007046285d36d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-19 07:06:58</sys_created_on>
+        <sys_id>61e7d9804724311007046285d36d4315</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1896cf932500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Theme</type>
+        <update_guid>21e7d98082243110a7c3e0cf4f972c15</update_guid>
+        <update_guid_history>21e7d98082243110a7c3e0cf4f972c15:-804542292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">29e7d9804724311007046285d36d4316</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 11:11:57</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>04efdaa76f654eeab382797bde26baa9</sys_id>
+        <sys_metadata>1ae09588e4e031103a923be492f97aeb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_scope_delete display_value="">89e38662cdd7472099260829e95b6484</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_1ae09588e4e031103a923be492f97aeb</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_1ae09588e4e031103a923be492f97aeb">61e7d9804724311007046285d36d4315</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 11:11:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

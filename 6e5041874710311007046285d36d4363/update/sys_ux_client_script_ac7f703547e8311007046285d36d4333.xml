@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="procedure">550f82294720311007046285d36d43a8</macroponent>
+        <name>submit1</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    const{name, value, fieldValue} = event.payload;
+    api.setState(name, fieldValue);
+    var buttonDisabled = true;
+    if(value){
+        if(name == 'subject'){
+            if(api.state.subject != ''){
+                
+                api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "critical",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + "first field is empty" + "<h4>"
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+    buttonDisabled = false;
+
+            }
+        }
+                if(name == 'body'){
+            if(api.state.subject != ''){
+                
+               api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "critical",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + "second field is empty" + "<h4>"
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+    buttonDisabled = false;
+
+            }
+    }
+    }
+    api.setState('buttonDisabled', buttonDisabled);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 19:54:29</sys_created_on>
+        <sys_id>ac7f703547e8311007046285d36d4333</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>submit1</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_client_script_ac7f703547e8311007046285d36d4333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 20:43:26</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="procedure">550f82294720311007046285d36d43a8</macroponent>
+        <name>form validation</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    const{name, value, fieldValue} = event.payload;
+    api.setState(name, fieldValue);
+    var buttonLogin = true;
+        if(!value){
+        if(name == 'input1'){
+            if(api.state.input1 != ''){
+                buttonLogin = false;
+            
+
+            }
+        }
+        if(name == 'input2'){
+            if(api.state.input2 != ''){
+                buttonLogin = false;
+    
+
+            }
+    }
+    }
+        
+    api.setState('buttonLogin', buttonLogin);
+
+    }]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 07:55:13</sys_created_on>
+        <sys_id>fbfd681a4760311007046285d36d437e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>form validation</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_client_script_fbfd681a4760311007046285d36d437e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-14 06:50:45</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a988f91247c1751007046285d36d434e" label="Available Slots" max_length="40" name="x_1047617_appian_0_available_slots" type="collection">
+        <element label="end" max_length="40" name="end" type="string"/>
+        <element label="start" max_length="40" name="start" type="string"/>
+        <element choice="1" label="type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="unavailable" sequence="1" value="unavailable"/>
+            </choice>
+        </element>
+    </element>
+</database>

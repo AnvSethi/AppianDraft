@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Default">6a01040247e4711007046285d36d43eb</macroponent>
+        <name>New client script 2</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+    const {
+        context,
+        data,
+        emit
+    } = api;
+
+
+
+
+    const insertRecord = function(table, fields) {
+        data.create_record_1.execute({
+            table,
+            templateFields: fields,
+            useSetDisplayValue: ''
+        });
+    };
+
+    //var record1SysId = "cab0203a47b8311007046285d36d4387";
+    //var templateFields = "record1=" + record1SysId + "^";
+    
+
+    if (event.elementId == "button_1") {
+        
+        
+    	var templateFields =  'record1=' + api.state.record1 + ' ^ record2=' + api.state.record2;
+        
+		//var abc = "hello";
+		//templateFields = templateFields + '^record1='+ abc;
+		
+		templateFields = templateFields.toString();
+
+        insertRecord('x_1047617_appian_0_patient',templateFields);
+        
+
+    }
+    console.log(templateFields);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-24 22:26:25</sys_created_on>
+        <sys_id>d4123e6a47f0311007046285d36d4346</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>New client script 2</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_client_script_d4123e6a47f0311007046285d36d4346</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-25 08:10:54</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

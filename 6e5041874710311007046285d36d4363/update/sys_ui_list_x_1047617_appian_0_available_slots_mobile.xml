@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1047617_appian_0_available_slots" version="2" view="Mobile">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>end</element>
+            <list_id display_value="x_1047617_appian_0_available_slots" element="NULL" name="x_1047617_appian_0_available_slots" parent="NULL" relationship="NULL" sys_domain="global" view="64c8c342c51021108c8b506e733c4c9a">0c8c76ae4781311007046285d36d43c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-06 09:27:42</sys_created_on>
+            <sys_id>c48c76ae4781311007046285d36d43c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-06 09:27:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start</element>
+            <list_id display_value="x_1047617_appian_0_available_slots" element="NULL" name="x_1047617_appian_0_available_slots" parent="NULL" relationship="NULL" sys_domain="global" view="64c8c342c51021108c8b506e733c4c9a">0c8c76ae4781311007046285d36d43c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-06 09:27:42</sys_created_on>
+            <sys_id>488c76ae4781311007046285d36d43c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-06 09:27:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="x_1047617_appian_0_available_slots" element="NULL" name="x_1047617_appian_0_available_slots" parent="NULL" relationship="NULL" sys_domain="global" view="64c8c342c51021108c8b506e733c4c9a">0c8c76ae4781311007046285d36d43c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-06 09:27:42</sys_created_on>
+            <sys_id>c88c76ae4781311007046285d36d43c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-06 09:27:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1047617_appian_0_available_slots</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-06 09:27:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c8c76ae4781311007046285d36d43c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1047617_appian_0_available_slots</sys_name>
+            <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+            <sys_update_name>sys_ui_list_x_1047617_appian_0_available_slots_Mobile</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-06 09:27:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Mobile" name="Mobile">64c8c342c51021108c8b506e733c4c9a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

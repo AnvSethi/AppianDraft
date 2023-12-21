@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Demo 3 Config">39e0958847e0311007046285d36d437b</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Task Approved</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>task_approved</route_type>
+        <screen_type display_value="Task Approved">46e095881de03110cd0869188453dbdb</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 10:41:29</sys_created_on>
+        <sys_id>8ee09588b8e0311055280a1c0539d4db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Approved</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_app_route_8ee09588b8e0311055280a1c0539d4db</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 10:41:29</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appian Draft">6e5041874710311007046285d36d4363</application>
+        <file_path/>
+        <instance_id>b7d409a8db4c515807072f17d4961912</instance_id>
+        <instance_name>dev128532</instance_name>
+        <name>sys_ux_app_route_8ee09588b8e0311055280a1c0539d4db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Demo 3 Config">39e0958847e0311007046285d36d437b</app_config><description/><extension_point/><fields/><icon/><name>Task Approved</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>task_approved</route_type><screen_type display_value="Task Approved">46e095881de03110cd0869188453dbdb</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-08-04 10:41:29</sys_created_on><sys_id>8ee09588b8e0311055280a1c0539d4db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Task Approved</sys_name><sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package><sys_policy/><sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope><sys_update_name>sys_ux_app_route_8ee09588b8e0311055280a1c0539d4db</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-08-04 10:41:29</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>2127928580</payload_hash>
+        <record_name>Task Approved</record_name>
+        <reverted_from/>
+        <source>38660a324700311007046285d36d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-19 07:06:58</sys_created_on>
+        <sys_id>5db111c847e0311007046285d36d43c1</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1896cf932500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>1db111c829e03110cc83140121b492c1</update_guid>
+        <update_guid_history>1db111c829e03110cc83140121b492c1:2127928580</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 10:44:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>1af07aa3faa74c5c975ee4220922d090</sys_id>
+        <sys_metadata>8ee09588b8e0311055280a1c0539d4db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Approved</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_scope_delete display_value="">89e38662cdd7472099260829e95b6484</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_8ee09588b8e0311055280a1c0539d4db</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_8ee09588b8e0311055280a1c0539d4db">5db111c847e0311007046285d36d43c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 10:44:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

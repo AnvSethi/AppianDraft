@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c76831a64730311007046285d36d43ee" label="patient" max_length="40" name="x_1047617_appian_0_patient" type="collection">
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="ID" max_length="40" name="id" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="input1" max_length="40" name="input1" type="string"/>
+        <element label="input2" max_length="40" name="input2" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="password" max_length="40" name="password" type="password"/>
+        <element label="record1" max_length="40" name="record1" type="string"/>
+        <element label="record2" max_length="40" name="record2" type="string"/>
+    </element>
+</database>

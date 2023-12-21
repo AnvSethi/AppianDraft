@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">ab9cca0bda113110408fd19a4edabf68</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-20 05:31:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f9cca0b52113110cb526e1e0411a068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>m2m_app_config_theme_6f9cca0b52113110cb526e1e0411a068</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-20 05:31:11</sys_updated_on>
+        <theme display_value="Light Theme">e39cca0b8c1131102c86767c8bfc1669</theme>
+        <ux_app_configuration display_value="Appian Draft Config">df9cca0b4711311007046285d36d4306</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

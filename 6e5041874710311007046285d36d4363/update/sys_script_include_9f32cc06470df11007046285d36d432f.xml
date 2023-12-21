@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1047617_appian_0.cascading</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>cascading</name>
+        <script><![CDATA[var cascading = Class.create();
+cascading.prototype = {
+    initialize: function() {
+    },
+
+getStates: function(country) {
+
+
+   var addressIds = [];
+
+
+
+   var gr = new GlideRecord('x_1047617_appian_0_state1');
+
+
+   gr.addQuery('country', country);
+
+
+   gr.query();
+
+
+   while (gr.next()) {
+
+
+   addressIds.push(gr.getUniqueValue());
+
+
+   }
+
+
+
+   return 'sys_idIN' + addressIds.toString();
+
+
+   },
+
+    type: 'cascading'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-04 06:57:49</sys_created_on>
+        <sys_id>9f32cc06470df11007046285d36d432f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cascading</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_script_include_9f32cc06470df11007046285d36d432f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-04 07:14:52</sys_updated_on>
+    </sys_script_include>
+</record_update>

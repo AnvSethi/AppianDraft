@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1b1e18c54701311007046285d36d4330" label="state1" max_length="40" name="x_1047617_appian_0_state1" type="collection">
+        <element label="code" max_length="40" name="code" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element label="state code" max_length="40" name="state_code" type="string"/>
+    </element>
+</database>

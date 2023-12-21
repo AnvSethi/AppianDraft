@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>39e0958847e0311007046285d36d437b</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app/>
+        <path>demo-3</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 10:41:30</sys_created_on>
+        <sys_id>35e0958847e0311007046285d36d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo 3</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_page_registry_35e0958847e0311007046285d36d437b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 10:41:30</sys_updated_on>
+        <title>Demo 3</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appian Draft">6e5041874710311007046285d36d4363</application>
+        <file_path/>
+        <instance_id>b7d409a8db4c515807072f17d4961912</instance_id>
+        <instance_name>dev128532</instance_name>
+        <name>sys_ux_page_registry_35e0958847e0311007046285d36d437b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>39e0958847e0311007046285d36d437b</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app/><path>demo-3</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-08-04 10:41:30</sys_created_on><sys_id>35e0958847e0311007046285d36d437b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Demo 3</sys_name><sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package><sys_policy/><sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope><sys_update_name>sys_ux_page_registry_35e0958847e0311007046285d36d437b</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-08-04 10:41:30</sys_updated_on><title>Demo 3</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>812895694</payload_hash>
+        <record_name>Demo 3</record_name>
+        <reverted_from/>
+        <source>38660a324700311007046285d36d4310</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-19 07:06:58</sys_created_on>
+        <sys_id>14681d804724311007046285d36d4388</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1896cf932500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>d0681d80d7243110a52ca1c16dffcb88</update_guid>
+        <update_guid_history>d0681d80d7243110a52ca1c16dffcb88:812895694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 11:14:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>046cb0803b71464182b9f491f4f90771</sys_id>
+        <sys_metadata>35e0958847e0311007046285d36d437b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo 3</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_scope_delete display_value="">89e38662cdd7472099260829e95b6484</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_35e0958847e0311007046285d36d437b</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_35e0958847e0311007046285d36d437b">14681d804724311007046285d36d4388</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 11:14:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

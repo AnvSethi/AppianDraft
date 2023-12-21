@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="procedure">550f82294720311007046285d36d43a8</macroponent>
+        <name>test</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function onChange({api, event, helpers, imports}) {
+    const{fieldName, value, displayValue} = event.payload;
+    api.setState(fieldName, value);
+    var buttonLogin = true;
+    api.setState('buttonLogin', buttonLogin);
+   const{dob} = api.state;
+   const{input1} = api.state;
+   const{input2} = api.state;
+   const{email} = api.state;
+   var in1 = input1;
+   var in2 = input2;
+   var em = email;
+   console.log(JSON.stringify(event.payload, null, 4));
+   //console.log(`${dob}`);
+   var userInput = dob;
+   //console.log(dob);
+   const dat = new Date();
+   var curdat =  dat.toString();
+   
+   function formatDate(inputText) {
+    const months = {
+        Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
+        Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12'
+    };
+
+    const parts = inputText.split(' ');
+
+    const year = parts[3];
+    const month = months[parts[1]];
+    const day = parts[2];
+
+    return `${year}-${month}-${day}`;
+}
+
+var systemInput = formatDate(curdat);
+//console.log(a);
+
+function compareDates(date1, date2) {
+    const parts1 = date1.split('-');
+    const parts2 = date2.split('-');
+
+    const year1 = parseInt(parts1[0], 10);
+    const month1 = parseInt(parts1[1], 10);
+    const day1 = parseInt(parts1[2], 10);
+
+    const year2 = parseInt(parts2[0], 10);
+    const month2 = parseInt(parts2[1], 10);
+    const day2 = parseInt(parts2[2], 10);
+
+    if(year1 == ''){
+        return false;
+    }
+    else if (year1 > year2) {
+        return true;
+    } else if (year1 < year2) {
+        return false;
+    } else {
+        if (month1 > month2) {
+            return true;
+        } else if (month1 < month2) {
+            return false;
+        } else {
+            return day1 > day2;
+        }
+    }
+}
+
+function containsNumbers(name) {
+    const namePattern = /^[A-Za-z]+$/;
+    return namePattern.test(name);
+}
+
+
+function isValidEmail(email) {
+  // Split the email address into parts
+  const parts = email.split('@');
+
+  if (parts.length !== 2) {
+    return false; // Email should have exactly one '@'
+  }
+
+  const localPart = parts[0];
+  const domainPart = parts[1];
+
+  // Check local part length
+  if (localPart.length === 0) {
+    return false;
+  }
+
+  // Check domain part for validity
+  if (domainPart.indexOf('.') === -1) {
+    return false; // Domain should have at least one '.'
+  }
+
+  // Check domain part components
+  const domainComponents = domainPart.split('.');
+  for (const component of domainComponents) {
+    if (component.length === 0) {
+      return false; // Empty component within domain
+    }
+  }
+
+  return true;
+}
+
+
+// Example usage
+var l = false;
+
+if(fieldName == 'email'){
+    if(value == ''){
+
+    api.setState('emailtemp',0);
+    }
+else{
+ l = isValidEmail(value);
+//console.log(l);
+if(l == false){
+                        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "critical",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + "enter a valid email" + "<h4>"
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+    api.setState('emailtemp',1);
+}
+if(l == true){
+api.setState('emailtemp', 0);
+}
+}
+}
+if(fieldName == 'dob'){
+if(userInput != ''){
+var c = compareDates(userInput,systemInput);
+if(c == true){
+                    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "critical",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + "select a past date" + "<h4>"
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+    api.setState('dobtemp',1);
+}
+if(c == false){
+    api.setState('dobtemp',0);
+}
+}
+}
+if(fieldName == 'dob'){
+if(userInput == ""){
+    //c == false;
+    api.setState('dobtemp',0);
+}
+}
+if(fieldName == 'x_1047617_appian_0_input1'){
+api.data.gform.showmsg("jsdfj");
+var j = false;
+var k = false;
+console.log(fieldName);
+console.log(value);
+if(fieldName == 'x_1047617_appian_0_input1'){
+        if(value == ''){
+                j = true;
+                api.setState("input1temp", 0);
+                api.setState('buttonLogin', true);
+        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "warning",
+            //icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + "fill all the mandatory field" + "<h4>"
+            },
+            action: {
+                type: "fieldmessage"
+            },
+        }]
+    });
+            }
+
+            else{
+                var numb = containsNumbers(value);
+                if(numb == true){
+                    api.setState('input1temp',0);                    
+                                                        api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "critical",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + "name shouldn't contain any number" + "<h4>"
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+                }
+
+                if(numb == false){
+                                    api.setState('input1temp',1);
+                }
+            }
+}
+if(fieldName == 'x_1047617_appian_0_input2'){
+        if(value == ''){
+            api.setState('input2temp',0);
+                k = true;
+                api.setState('buttonLogin',true);
+                                    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "critical",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + "fill all the mandatory field" + "<h4>"
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+            }
+    else{
+        var num = containsNumbers(value);
+        if(num == true){
+            api.setState('input2temp', 0);
+                       api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "alert1",
+            status: "critical",
+            icon: "circle-check-outline",
+            content: {
+                type: "html",
+                value: "<h4>" + "name shouldn't contain any number" + "<h4>"
+            },
+            action: {
+                type: "dismiss"
+            },
+        }]
+    });
+        }
+        if(num == false){
+        api.setState('input2temp',1);
+    }
+    }
+}
+if(c == true || j == true || k == true){
+        buttonLogin = true;
+        
+}
+
+if(c == false && j == false && k == false){
+    //console.log(m);
+    buttonLogin = false;
+    api.setState('buttonLogin', buttonLogin);
+    api.setState('temp1', 1);
+}
+if(m == 1){
+buttonLogin = false;
+api.setState('buttonLogin', buttonLogin);
+}
+if(api.state.temp1 == 1){
+    buttonLogin = false;
+    api.setState('buttonLogin',buttonLogin);
+}
+//console.log(api.state.input1temp);
+
+
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 18:38:51</sys_created_on>
+        <sys_id>a42ea83547a8311007046285d36d43f7</sys_id>
+        <sys_mod_count>250</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_client_script_a42ea83547a8311007046285d36d43f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-18 11:55:52</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

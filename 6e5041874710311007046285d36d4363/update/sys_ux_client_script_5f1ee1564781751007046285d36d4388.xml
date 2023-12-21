@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Default">b0e728014741311007046285d36d4376</macroponent>
+        <name>New client script 2</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+  function formatDate(inputText) {
+    const months = {
+        Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
+        Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12'
+    };
+
+    const parts = inputText.split(' ');
+
+    const year = parts[3];
+    const month = months[parts[1]];
+    const day = parts[2];
+
+    return `${year}-${month}-${day}`;
+}
+
+function addDaysToDate(inputDateStr) {
+  // Parse the input string as a Date object
+  const inputDate = new Date(inputDateStr);
+  
+  // Add 10 days to the input date
+  inputDate.setDate(inputDate.getDate() + 10);
+  
+  // Format the result as "YYYY-MM-DD"
+  const year = inputDate.getFullYear();
+  const month = String(inputDate.getMonth() + 1).padStart(2, '0');
+  const day = String(inputDate.getDate()).padStart(2, '0');
+  
+  return `${year}-${month}-${day}`;
+}
+
+
+
+
+
+
+   const dat = new Date();
+   var toddat =  dat.toString();
+   var systemDate = formatDate(toddat);
+   var afdate = addDaysToDate(systemDate);
+
+    console.log(systemDate);
+    console.log(afdate);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-05 09:06:45</sys_created_on>
+        <sys_id>5f1ee1564781751007046285d36d4388</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>New client script 2</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_ux_client_script_5f1ee1564781751007046285d36d4388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-05 09:21:55</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
