@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>49055d5347f2311007046285d36d43b0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1047617_appian_0_chatgpt">
+    <x_1047617_appian_0_chatgpt action="INSERT_OR_UPDATE">
+        <answer/>
+        <question>what is 1+1</question>
+        <request/>
+        <response/>
+        <status_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-04 09:41:04</sys_created_on>
+        <sys_id>49055d5347f2311007046285d36d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-04 09:41:04</sys_updated_on>
+    </x_1047617_appian_0_chatgpt>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-25 07:00:04</sys_created_on>
+        <sys_id>ce99bc4e479bf51007046285d36d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2023-12-04 01:41:04</sys_name>
+        <sys_package display_value="Appian Draft" source="x_1047617_appian_0">6e5041874710311007046285d36d4363</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appian Draft">6e5041874710311007046285d36d4363</sys_scope>
+        <sys_update_name>sys_metadata_link_ce99bc4e479bf51007046285d36d43aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-25 07:00:04</sys_updated_on>
+        <tablename>x_1047617_appian_0_chatgpt</tablename>
+    </sys_metadata_link>
+</record_update>
